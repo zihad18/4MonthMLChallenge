@@ -24,6 +24,7 @@ As we have to find the duplicate of two list. So we will iterate the two list in
 the python inbuild sort is higher than O(N) and less than O(N^2)
 
 ## The Dictionary Creator
-
+creating a list takes O(1) times and  searching O(N) and creating dict as hashtable O(N) and searching takes O(1)  
 
 ## The Slice Copy 
+slicing allocates new memory for [0: 5000] so it takes space complexity O(k) where k is the size of the slice.
