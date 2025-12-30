@@ -24,3 +24,6 @@ As we have to find the duplicate of two list. So we will iterate the two list in
 the python inbuild sort is higher than O(N) and less than O(N^2)
 
 ## The Dictionary Creator
+
+
+## The Slice Copy 
