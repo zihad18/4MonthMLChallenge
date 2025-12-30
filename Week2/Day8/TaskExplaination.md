@@ -6,4 +6,4 @@ When we convert that list into a set. it becomes the hash table. So When We try 
 
 
 ## The Insertion Trap
-Usually the python''' append()''' function
+Usually the ```python append()``` function insert the value in the next empty memory slot which takes O(1) time complexity. But ```python insert(0,a)```for inserting an element in 0th index needs shifting of the previous all element one space then it saves in 0th index.
