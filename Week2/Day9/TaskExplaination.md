@@ -45,4 +45,8 @@ We can do it in one line of code using **yield from** like `yield from sub_gen()
 
 ### Task 9.9 problem Explaination
 
+using `send(val)` method we can inject any value in the run time which we can use for our explicit testing and its a advanced function of generator.
+
 ### Task 9.10 problem Explaination
+
+As the generator function's variable are also stores and remember when the object is alived so this types of running avg or running standard deviation can be easily calculable.
