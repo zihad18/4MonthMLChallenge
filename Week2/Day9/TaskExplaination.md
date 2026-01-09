@@ -22,7 +22,11 @@ As the generator instances usually become frozer after call and stores its state
 
 ### Task 9.5 problem Explaination
 
+If the generator has finite numbers of items to provide when we call all of them then **StopIteration** Error comes.
+
 ### Task 9.6 problem Explaination
+
+Usually we can chain many generators and it saves a lot of memory and comutation initailly which can reduce the initial loading of a program. In machine learning the data pipeline can be made by this concept for efficiency.
 
 ### Task 9.7 problem Explaination
 
