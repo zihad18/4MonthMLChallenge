@@ -14,7 +14,11 @@ Here we are comparing list_comprehension with generator expresion using python `
 
 ### Task 9.3 problem Explaination
 
+In this problem we just define a function which can calculate fibonnaci numbers but we use **yield** instead of return or printing then in function thats why we can generate infinte times of this amazing series as much as we want.
+
 ### Task 9.4 problem Explaination
+
+As the generator instances usually become frozer after call and stores its states and when it completes its all value we cannot recall that instance anymore its not like traditional function which does not remember its previous call. So we need to reinitialize object for calling again .
 
 ### Task 9.5 problem Explaination
 
