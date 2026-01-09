@@ -30,7 +30,18 @@ Usually we can chain many generators and it saves a lot of memory and comutation
 
 ### Task 9.7 problem Explaination
 
+Its a great way to load data in RAM where our local ram haven't have that much memory so we can load a chunck from the big data then process it and in this repeatable way we can fix our low resouce PC with a big dataset.
+
 ### Task 9.8 problem Explaination
+
+If we want to use **yield** in a loop fashion just like
+
+```
+for value in sub_gen():
+    yield value
+```
+
+We can do it in one line of code using **yield from** like `yield from sub_gen()`
 
 ### Task 9.9 problem Explaination
 
