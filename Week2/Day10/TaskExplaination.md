@@ -32,4 +32,8 @@ Usually when we called the function it returns the wrapper that's why when we se
 
 ### Task 10.9 problem Explaination
 
+the ordering matters in decorator when we call both decorator and its act like pipeline
+
 ### Task 10.10 problem Explaination
+
+`repeat(time=3)` needs 3 nested function to execute
