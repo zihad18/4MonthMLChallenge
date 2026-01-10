@@ -20,9 +20,15 @@ As the task asks we implemented the timer decorator which calculate the time and
 
 ### Task 10.6 problem Explaination
 
+We store USER as a global variable and we check it before function calling inside the wrapper where we check is the global USER is admin or not if not then we throw PermissionError as it enhances the security.
+
 ### Task 10.7 problem Explaination
 
+We build a decorator which has the functionality of cache that's means if anyone check a prime or not once then when the function check it again for the same input it does not calculate the value again instead of that it just using hashing function aka dictionary in python takes only O(1) to get the answer.
+
 ### Task 10.8 problem Explaination
+
+Usually when we called the function it returns the wrapper that's why when we see the function name it show wrapper not the original decorator name. If need to see the decorator function name we have to use `functools.wraps(func)` .
 
 ### Task 10.9 problem Explaination
 
