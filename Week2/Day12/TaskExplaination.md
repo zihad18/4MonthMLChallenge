@@ -32,4 +32,8 @@ Using super().**init**() in the inherited class we get all the implementation of
 
 ### Task 12.9 problem Explaination
 
+In operator overloading we have to define inside the class how our operator will work in our cases. for example in wallet class we calculate the balance of the two objects then return the answer and thats how we implemented two wallet addition.
+
 ### Task 12.10 problem Explaination
+
+In this case the operator overloading is used we check the all attributes of the two instances are same or not by this we give verdict using **eq**() operator
