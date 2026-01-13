@@ -24,7 +24,11 @@ Class atributes are globally defined So if we change it all the instances will b
 
 ### Task 12.7 problem Explaination
 
+According to MRO principle the method is first searched on the calling class then sequentialy in c3 linear order into parent classes.
+
 ### Task 12.8 problem Explaination
+
+Using super().**init**() in the inherited class we get all the implementation of parent classes . then we can override if we need.
 
 ### Task 12.9 problem Explaination
 
