@@ -32,4 +32,8 @@ n\*(n+1)/2 - total
 
 ### Task 14.9 problem Explaination
 
+Here we use itertools.groupby for sorting and grouping the data by category.
+
 ### Task 14.10 problem Explaination
+
+Using two pointer method.
